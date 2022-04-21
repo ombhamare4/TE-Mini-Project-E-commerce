@@ -5,7 +5,7 @@ import ComponentObtained from "../../components/CustomPcComponents/ComponentObta
 const CustomComputer =()=>{
     return(
         <Layout>
-            {/* <CustomForm/> */}
+            <CustomForm/>
 
         </Layout>
     )
