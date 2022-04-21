@@ -1,0 +1,38 @@
+.position {
+  position: absolute;
+  top: 1vh;
+  left: 15%;
+}
+
+@media (min-width: 320px) {
+  .position {
+    top: 1vh;
+    left: 10px;
+  }
+}
+
+@media (min-width: 578px) {
+  .position {
+    left: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .position {
+    left: 7.5%;
+  }
+}
+
+@media (min-width: 992px) {
+  .position {
+    top: 1vh;
+    left: 19%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .position {
+    top: 1vh;
+    left: 19.5%;
+  }
+}

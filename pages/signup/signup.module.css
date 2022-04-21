@@ -1,0 +1,17 @@
+.position{
+    position: absolute;
+    top:1vh;
+    left: 30%; 
+}
+
+@media(min-width: 320px){.position{left: 3%;}
+}
+
+@media(min-width: 576px){.position{left: 6%;}
+}
+
+@media(min-width: 768px){.position{left: 16%;}
+}
+
+@media(min-width: 992px){.position{left: 22%;}
+}

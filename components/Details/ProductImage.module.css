@@ -1,0 +1,12 @@
+.content{
+    display: flex;
+    width:20vw;
+    height: 20vh;
+    
+    overflow: hidden;
+}
+
+.hover-zoom img:hover{
+    transform: scale(1.25);
+
+}

@@ -1,0 +1,45 @@
+.ad1{
+    display: flex;
+    width: 40vw;
+    height: 45vh;
+    background-image: url(https://static.digit.in/default/6cf17f8516c5b554860c732e2f07980aaef7aa3b.jpeg) ;
+    background-size: 40vw 45vh;
+    justify-content : center;
+    align-items: center;
+}
+
+.ad2{
+    display: flex;
+    width: 40vw;
+    height: 45vh;
+    background-image: url(https://i.pcmag.com/imagery/articles/043ONgXk5OjSBhDdkrIG65D-25..v1569484324.jpg) ;
+    background-size: 40vw 45vh;
+    justify-content : center;
+    align-items: center;
+}
+
+.h4{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ff9100;
+    /* text-align: center; */
+}
+
+.h4:hover{
+    color:white;
+    cursor: pointer;
+    transition-delay: 0.7ms;
+}
+
+@media (max-width:768px){
+    .ad1 {
+        width: 80vw;
+        background-size: 80vw ;
+        margin-bottom: 1rem;
+    }
+    .ad2 {
+        width: 80vw;
+        background-size: 80vw ;
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,42 @@
+/* .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.overflow {
+  white-space: nowrap;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+
+.btn {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @media only screen and (max-width: 500px) {
+  .btn {
+      display: none;
+    }
+} */
+
+.addCart {
+  background-color: rgb(239 68 68);
+  padding: 0 9px;
+  color: white;
+  border-radius: 50%;
+  font-size: 2.15rem;
+  line-height: 2.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .addCart {
+      display: none;
+    }
+}
+

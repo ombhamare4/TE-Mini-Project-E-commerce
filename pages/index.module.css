@@ -1,0 +1,14 @@
+.layout{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1.5rem;
+    margin-left: 4rem;
+
+}
+
+@media (max-width:768px){
+    .layout{
+        grid-template-columns: 1fr ;
+        margin-left: 3rem;
+    }
+}
